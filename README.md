@@ -1,10 +1,10 @@
 # Prácticas 4. Modelo relacional. Viveros
 
-Imagen del modelo entidad-relación de los viveros empleado.
+## Imagen del modelo entidad-relación de los viveros empleado.
 
 ![](img/modelo_entidad_relacion.jpg)
 
-Imagen del diseño relacional realizado.
+## Imagen del diseño relacional realizado.
 
 VIVERO(id, dirección, código_postal)
 
@@ -23,7 +23,7 @@ PEDIDO(id, fecha, precio, productos, id_cliente, id_empleado)
 id_cliente: FOREIGN KEY de CLIENTE(id)
 id_empleado: FOREIGN KEY de EMPLEADO(id)
 
-Imagen con la salida de un SELECT de cada tabla de la base de datos.
+## Imagen con la salida de un SELECT de cada tabla de la base de datos.
 
 ![](img/tablas/vivero.png)
 ![](img/tablas/zona.png)
